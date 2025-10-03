@@ -7,6 +7,7 @@ export const translations = {
       skills: "Habilidades",
       contact: "Contato",
       blog: "Blog",
+      landingPages: "Landing Pages",
     },
     hero: {
       title: "Franciney Sales de Freitas",
@@ -211,6 +212,26 @@ export const translations = {
       relatedPosts: "Posts Relacionados",
       backToBlog: "Voltar ao Blog",
     },
+    landingPages: {
+      title: "Landing Pages",
+      subtitle: "Modelos de páginas de conversão otimizadas para diferentes segmentos",
+      description: "Explore nossa coleção de landing pages profissionais, desenvolvidas com foco em conversão e experiência do usuário.",
+      viewDemo: "Ver Demonstração",
+      comingSoon: "Em Breve",
+      features: {
+        responsive: "Totalmente Responsiva",
+        optimized: "Otimizada para Conversão",
+        modern: "Design Moderno",
+        fast: "Carregamento Rápido"
+      },
+      models: {
+        lawyer: {
+          title: "Escritório de Advocacia",
+          description: "Landing page profissional para escritórios de advocacia com foco em conversão de leads jurídicos.",
+          category: "Serviços Profissionais"
+        }
+      }
+    },
   },
   en: {
     nav: {
@@ -220,6 +241,7 @@ export const translations = {
       skills: "Skills",
       contact: "Contact",
       blog: "Blog",
+      landingPages: "Landing Pages",
     },
     hero: {
       title: "Franciney Sales de Freitas",
@@ -423,6 +445,26 @@ export const translations = {
       shareOn: "Share on",
       relatedPosts: "Related Posts",
       backToBlog: "Back to Blog",
+    },
+    landingPages: {
+      title: "Landing Pages",
+      subtitle: "Conversion-optimized page templates for different segments",
+      description: "Explore our collection of professional landing pages, developed with focus on conversion and user experience.",
+      viewDemo: "View Demo",
+      comingSoon: "Coming Soon",
+      features: {
+        responsive: "Fully Responsive",
+        optimized: "Conversion Optimized",
+        modern: "Modern Design",
+        fast: "Fast Loading"
+      },
+      models: {
+        lawyer: {
+          title: "Law Firm",
+          description: "Professional landing page for law firms focused on legal lead conversion.",
+          category: "Professional Services"
+        }
+      }
     },
   },
 };
