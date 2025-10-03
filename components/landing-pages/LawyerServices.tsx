@@ -126,6 +126,12 @@ export default function LawyerServices() {
 
                     <Button
                       className="w-full bg-orange-500 hover:bg-orange-600 text-white transition-all duration-200 hover:scale-105"
+                      onClick={() => {
+                        const contactSection = document.getElementById('contact-form');
+                        if (contactSection) {
+                          contactSection.scrollIntoView({ behavior: 'smooth' });
+                        }
+                      }}
                     >
                       Saiba Mais
                       <ArrowRight className="h-4 w-4 ml-2" />

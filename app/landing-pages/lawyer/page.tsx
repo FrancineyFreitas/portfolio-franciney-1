@@ -10,6 +10,7 @@ import LawyerContactForm from '@/components/landing-pages/LawyerContactForm';
 import LawyerFAQ from '@/components/landing-pages/LawyerFAQ';
 import LawyerCTA from '@/components/landing-pages/LawyerCTA';
 import LawyerFooter from '@/components/landing-pages/LawyerFooter';
+import WhatsAppButton from '@/components/landing-pages/WhatsAppButton';
 
 export default function LawyerLandingPage() {
   return (
@@ -139,6 +140,12 @@ export default function LawyerLandingPage() {
 
         {/* Footer */}
         <LawyerFooter />
+        
+        {/* WhatsApp Button */}
+        <WhatsAppButton 
+          phoneNumber="5511999999999"
+          message="Olá! Gostaria de agendar uma consulta jurídica. Podem me ajudar?"
+        />
       </div>
     </>
   );

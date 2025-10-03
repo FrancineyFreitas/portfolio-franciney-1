@@ -217,7 +217,7 @@ export default function LawyerContactForm() {
                         value={formData.name}
                         onChange={handleInputChange}
                         required
-                        className="w-full border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                        className="w-full border-gray-300 focus:border-orange-500 focus:ring-orange-500 bg-white text-gray-900 placeholder-gray-500"
                         placeholder="Seu nome completo"
                       />
                     </div>
@@ -233,7 +233,7 @@ export default function LawyerContactForm() {
                         value={formData.email}
                         onChange={handleInputChange}
                         required
-                        className="w-full border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                        className="w-full border-gray-300 focus:border-orange-500 focus:ring-orange-500 bg-white text-gray-900 placeholder-gray-500"
                         placeholder="seu@email.com"
                       />
                     </div>
@@ -249,7 +249,7 @@ export default function LawyerContactForm() {
                         value={formData.phone}
                         onChange={handleInputChange}
                         required
-                        className="w-full border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                        className="w-full border-gray-300 focus:border-orange-500 focus:ring-orange-500 bg-white text-gray-900 placeholder-gray-500"
                         placeholder="(11) 99999-9999"
                       />
                     </div>
@@ -284,7 +284,7 @@ export default function LawyerContactForm() {
                         value={formData.message}
                         onChange={handleInputChange}
                         required
-                        className="w-full min-h-[120px] border-gray-300 focus:border-orange-500 focus:ring-orange-500"
+                        className="w-full min-h-[120px] border-gray-300 focus:border-orange-500 focus:ring-orange-500 bg-white text-gray-900 placeholder-gray-500"
                         placeholder="Descreva brevemente sua situação jurídica..."
                       />
                     </div>

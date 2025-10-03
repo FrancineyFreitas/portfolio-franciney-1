@@ -123,20 +123,12 @@ export default function LawyerHero() {
               <div className="relative">
                 <div className="w-full h-96 rounded-2xl overflow-hidden shadow-2xl">
                   <img
-                    src="https://cdn.pixabay.com/photo/2020/12/05/14/08/man-5806012_1280.jpg"
+                    src="https://cdn.pixabay.com/photo/2022/08/14/01/46/lawyer-7384762_1280.jpg"
                     alt="Advogado profissional em escritório moderno - Escritório de Advocacia São Paulo"
                     className="w-full h-full object-cover"
                     loading="eager"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent" />
-                </div>
-                
-                {/* Floating Elements */}
-                <div className="absolute -top-4 -right-4 w-20 h-20 bg-orange-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold text-lg">✓</span>
-                </div>
-                <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-blue-500 rounded-full flex items-center justify-center shadow-lg">
-                  <span className="text-white font-bold">⚖️</span>
                 </div>
               </div>
             </motion.div>
